@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="icon" href="img/briefcase.png" type="image/png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+    <title>Portafolio</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#">Nick</a>
+                <a href="#">Bairon</a>
             </div>
             <nav id="nav">
                 <ul>
@@ -21,7 +22,7 @@
                     <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
                     <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
                     <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTAFOLIO</a></li>
                     <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
                 </ul>
             </nav>
@@ -31,21 +32,19 @@
         </header>
     </div>
 
-    <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
+        <div class="video-background">
+            <video autoplay muted loop>
+                <source src="/portfolio-bairon/videos/fondomatrix.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+        </div>
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="img/hero.png" alt="">
+                <img src="img/yol.jpg" alt="">
             </div>
-            <h1>NICK PEREZ</h1>
-            <h2>Ingeniero de Software - Experto UI/UX</h2>
-            <div class="redes">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
-            </div>
+            <h1>Bairon Muñoz</h1>
+            <p>Tecnólogo en Analísis y Desarrollo de Software</p>
         </div>
     </section>
 
@@ -53,7 +52,7 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Nick Perez.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+            <p><span>Hola, soy John Bairon Galeano Muñoz.</span>Me caracterizo por ser una persona respetuosa, dedicada y creativa, cualidades que aplico en cada proyecto en el que participo. Me adapto con facilidad a diferentes entornos y situaciones, manteniendo un alto nivel de responsabilidad y compromiso con mis tareas. La puntualidad y la atención al detalle son principios fundamentales en mi trabajo, lo que me permite cumplir con los plazos y superar las expectativas.</p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -62,27 +61,23 @@
                     <ul>
                         <li>
                             <strong>Cumpleaños</strong>
-                            15-01-1980
+                            23-10-2004
                         </li>
                         <li>
                             <strong>Teléfono</strong>
-                            2555 5454545
+                            3192466335
                         </li>
                         <li>
                             <strong>Email</strong>
-                            cw@example.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            www.example.com
+                            bairogaleano1234@gmail.com
                         </li>
                         <li>
                             <strong>Dirección</strong>
-                            123 San Luis, Argentina
+                            Ramirez Franco, Montenegro, Quindío.
                         </li>
                         <li>
                             <strong>Cargo</strong>
-                            <span>FREELANCE</span>
+                            <span>DESARROLLO</span>
                         </li>
                     </ul>
                 </div>
@@ -105,10 +100,10 @@
                         </div>
                         <div class="interes">
                             <i class="fa-brands fa-apple"></i>
-                            <span>MAC OS</span>
+                            <span>SO</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-person-hiking"></i>
+                            <i class="fa-solid fa-dumbbell"></i>
                             <span>DEPORTE</span>
                         </div>
                         <div class="interes">
@@ -116,8 +111,8 @@
                             <span>LIBROS</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
                         </div>
                         <div class="interes">
                             <i class="fa-solid fa-camera"></i>
@@ -127,26 +122,22 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
         </div>
     </section>
 
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
         <div class="contenido-seccion">
-            <h2>Skills</h2>
+            <h2>Habilidades</h2>
             <div class="fila">
                 <!-- Technical Skill -->
                 <div class="col">
-                    <h3>Technical Skills</h3>
+                    <h3>Habilidades Técnicas</h3>
                     <div class="skill">
                         <span>Javascript</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>75%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
@@ -154,20 +145,20 @@
                         <span>HTML & CSS</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>89%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Photoshop</span>
+                        <span>React</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>95%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Wordpress</span>
+                        <span>Base de datos(SQL)</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>81%</span>
@@ -175,17 +166,17 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Drupa</span>
+                        <span>Bootstrap</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>55%</span>
+                                <span>65%</span>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Professional Skills -->
                 <div class="col">
-                    <h3>Professional Skills</h3>
+                    <h3>Habilidades Profesionales</h3>
                     <div class="skill">
                         <span>Comunicación</span>
                         <div class="barra-skill">
@@ -198,7 +189,7 @@
                         <span>Trabajo en Equipo</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>70%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
@@ -206,7 +197,7 @@
                         <span>Creatividad</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>99%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
@@ -214,7 +205,7 @@
                         <span>Dedicación</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>65%</span>
+                                <span>100%</span>
                             </div>
                         </div>
                     </div>
@@ -222,7 +213,7 @@
                         <span>Proyect Management</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>94%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
@@ -239,28 +230,28 @@
                 <div class="col izquierda">
                     <h3>Educación</h3>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Bachiller</h4>
+                        <span class="casa">Institución Educativa General Santander</span>
+                        <span class="fecha">2009 - 2021</span>
+                        <p>Obtuve mi diploma de bachillerato en Institución Educativa General Santander, donde desarrollé una sólida base académica y habilidades interpersonales. Durante mi tiempo en la institución, participé en diversas actividades extracurriculares que me ayudaron a crecer tanto personal como profesionalmente</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Tecnólogo en Analísis y Desarrollo de Software</h4>
+                        <span class="casa">Centro comercio y turismo SENA</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p>Culminé mis estudios como tecnólogo en Análisis y Desarrollo de Software en el Centro de Comercio y Turismo SENA, donde adquirí conocimientos sólidos en programación, diseño de sistemas y desarrollo de aplicaciones. Esta formación me permitió familiarizarme con diversas herramientas y tecnologías, así como fortalecer mis habilidades técnicas y analíticas.</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
                     </div>
                     <div class="item izq">
-                        <h4>Arte y Multimedia</h4>
-                        <span class="casa">Universidad de Oxford</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Pasantías de Tecnólogo</h4>
+                        <span class="casa">Universidad La Gran Colombia</span>
+                        <span class="fecha">7 Abril 2024 - 7 Octubre 2024</span>
+                        <p>Realicé mis pasantías en la Universidad La Gran Colombia, donde tuve la oportunidad de trabajar en una variedad de proyectos relacionados con el área de sistemas. Esta experiencia me permitió aplicar mis conocimientos teóricos en un entorno profesional y desarrollar habilidades prácticas en el ámbito del desarrollo de software, así como enfrentar nuevos retos que potenciaron mi crecimiento profesional</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -270,28 +261,28 @@
                 <div class="col derecha">
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Trabajo en restaurante</h4>
+                        <span class="casa">Garaje food- Cojame la arepa</span>
+                        <span class="fecha">2022</span>
+                        <p>En mi rol en el restaurante, fui responsable de brindar atención al cliente y realizar domicilios. Esta experiencia me permitió desarrollar habilidades clave en el ámbito de las ventas y la comunicación efectiva con los clientes.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Experiencia en sistemas</h4>
+                        <span class="casa">Universidad La Gran Colombia</span>
+                        <span class="fecha">2024</span>
+                        <p>Mi experiencia en el área de sistemas se enriqueció considerablemente durante mis pasantías en la Universidad La Gran Colombia, las cuales considero más como un trabajo real en una empresa que como una simple pasantía. Durante este tiempo, tuve la oportunidad de aplicar mis conocimientos técnicos en un entorno profesional, enfrentando desafíos y contribuyendo a proyectos significativos.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Conclusión</h4>
+                        <span class="casa">En resumen...</span>
+                        <span class="fecha">2024</span>
+                        <p>Mi trayectoria académica y profesional me ha brindado una sólida base en sistemas y atención al cliente, permitiéndome abordar proyectos con un enfoque integral y orientado a resultados. Estoy comprometido con la excelencia en cada iniciativa y estoy ansioso por contribuir al éxito de futuros proyectos. Su consideración es muy apreciada, y espero con interés la oportunidad de colaborar en iniciativas innovadoras.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -304,45 +295,45 @@
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
-            <h2>PORTFOLIO</h2>
+            <h2>PORTAFOLIO</h2>
             <div class="galeria">
                 <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
+                    <img src="img/blender.jpg" alt="">
                     <div class="overlay">
                         <h3>Diseño Creativo</h3>
                         <p>Fotografía</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
+                    <img src="img/visual.webp" alt="">
                     <div class="overlay">
                         <h3>Diseño Creativo</h3>
                         <p>Fotografía</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
+                    <img src="img/unreal.jpg" alt="">
                     <div class="overlay">
                         <h3>Diseño Creativo</h3>
                         <p>Fotografía</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p4.jpg" alt="">
+                    <img src="img/git.png" alt="">
                     <div class="overlay">
                         <h3>Diseño Creativo</h3>
                         <p>Fotografía</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
+                    <img src="img/gimp-logo11.png" alt="">
                     <div class="overlay">
                         <h3>Diseño Creativo</h3>
                         <p>Fotografía</p>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p6.jpg" alt="">
+                    <img src="img/gitt.png" alt="">
                     <div class="overlay">
                         <h3>Diseño Creativo</h3>
                         <p>Fotografía</p>
@@ -359,32 +350,35 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
-                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
+                    <form id="contact-form">
+                        <input type="text" name="user_name" placeholder="Tú Nombre" required>
+                        <input type="tel" name="user_phone" placeholder="Número telefónico" required>
+                        <input type="email" name="user_email" placeholder="Dirección de correo" required>
+                        <input type="text" name="subject" placeholder="Tema" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit" class="boton">
+    Enviar Mensaje
+    <span class="overlay"></span>
+</button>
+
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
-                    <img src="img/ubicacion.png" alt="">
+                    <img src="img/mapaa.png" alt="">
                     <div class="info">
                         <ul>
                             <li>
                                 <i class="fa-solid fa-location-dot"></i>
-                                Nicaragua 159, San Rafael Mza
+                                Montenegro, Quindío.
                             </li>
                             <li>
                                 <i class="fa-solid fa-mobile-screen"></i>
-                                Llamanos: 2384 - 4343443 
+                                Llámame: +573192466335
                             </li>
                             <li>
                                 <i class="fa-solid fa-envelope"></i>
-                                Email: cw@example.com
+                                Email: bairongaleano1234@gmail.com
                             </li>
                         </ul>
                     </div>
@@ -392,21 +386,34 @@
             </div>
         </div>
     </section>
-
+   
+    
     <!-- footer -->
     <footer>
         <a href="#inicio" class="arriba">
             <i class="fa-solid fa-angles-up"></i>
         </a>
-        <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-skype"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-solid fa-rss"></i></a>
-        </div>
+        
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("IuvRinxC6LYa1_ONb"); // Reemplaza YOUR_USER_ID con tu user_id de EmailJS
+        })();
+    
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Evitar el envío del formulario por defecto
+    
+            emailjs.sendForm('service_07djx6k', 'template_4yq4da6', this) // Reemplaza con tu service_id y template_id
+                .then(function() {
+                    alert('Mensaje enviado con éxito!');
+                    document.getElementById('contact-form').reset(); // Resetea el formulario después de enviar
+                }, function(error) {
+                    alert('Error al enviar el mensaje: ' + JSON.stringify(error));
+                });
+        });
+    </script>
 </body>
 </html>
